@@ -59,8 +59,9 @@ results ={}
 
 while total_index < source.length do
 
+director_names = list_of_directors(source)[total_index]
 
-final_total += directors_totals(source)[total_index]
+final_total += directors_totals(source)["#{director_names}"]
  total_index +=1
    end
 puts final_total

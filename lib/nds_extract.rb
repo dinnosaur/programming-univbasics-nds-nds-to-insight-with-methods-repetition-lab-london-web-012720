@@ -54,7 +54,7 @@ total_index =0
 results ={}
 
 
-
+puts directors_totals
 while total_index < source.length do
 
 

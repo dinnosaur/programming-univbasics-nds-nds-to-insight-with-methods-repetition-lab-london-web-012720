@@ -51,7 +51,7 @@ def total_gross(source)
   # return the total
 final_total =0
 total_index =0
-
+results ={}
 
 
 

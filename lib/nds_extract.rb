@@ -57,7 +57,7 @@ results ={}
 
 while total_index < source.length do
       directors_totals(source)
-  
+
 final_total += directors_totals(source)[total_index]
  total_index +=1
    end

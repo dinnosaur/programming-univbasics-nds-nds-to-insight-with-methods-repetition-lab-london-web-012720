@@ -54,7 +54,7 @@ total_index =0
 results ={}
 
 
-puts directors_totals
+
 while total_index < source.length do
 
 
@@ -62,7 +62,7 @@ final_total += directors_totals(source)[total_index]
  total_index +=1
    end
 puts final_total
-puts directors_totals
+
    final_total
 
 

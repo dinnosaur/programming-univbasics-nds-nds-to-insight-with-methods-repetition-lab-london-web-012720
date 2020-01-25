@@ -56,7 +56,7 @@ total_index =0
 
 
 while total_index < source.length do
-     final_total += directors_totals[total_index][:name]
+     final_total += directors_totals(source[total_index][:name])
  total_index +=1
    end
 puts final_total

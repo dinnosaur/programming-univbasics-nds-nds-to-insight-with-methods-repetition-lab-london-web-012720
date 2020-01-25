@@ -57,7 +57,7 @@ results ={}
 
 while total_index < source.length do
       results = directors_totals(source)
-     final_total += results[total_index][:name]
+     final_total += results[:name]
  total_index +=1
    end
 puts final_total
